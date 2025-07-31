@@ -1,0 +1,104 @@
+.gym{
+    margin: auto;
+    width: 40vw;
+    height: 40vh;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+body{
+    background: linear-gradient(20deg, hsl(0, 0%, 14%), rgb(126, 125, 125));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-family: monospace, Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    gap: 50px;
+    width: 80vw;
+    height: 70vh;
+    background-color: rgb(237, 237, 237);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin: 15px;
+    text-align: center;
+    flex: 1;
+    
+}
+
+.form{
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.form-text{
+    margin-bottom: 75px;
+}
+
+.info{
+    border-radius: 20px;
+    height: 7vh;
+    width: 15vw;
+    padding-left: 40px;
+    margin: 3px;
+    font-size: 20px; 
+}
+
+#username{
+    background: url('./user.png') no-repeat 10px center, hsl(0, 0%, 85%);
+    background-size: 20px;
+}
+
+#password{
+    background: url('./password.png') no-repeat 10px center, hsl(0, 0%, 85%);
+    background-size: 20px;
+}
+
+.button-login{
+    border-radius: 20px;
+    height: 7vh;
+    width: 15vw;
+    color: white;
+    background-color: hsl(120, 62%, 44%);
+    margin-top: 30px;
+    font-size: 25px; 
+    margin-bottom: 7px;
+    }
+
+.button-login:hover{
+    cursor: pointer;
+    background-color: hsl(120, 62%, 34%);
+}
+
+.button-guest{
+    border-radius: 20px;
+    height: 7vh;
+    width: 15vw;
+    background-color: hsl(345, 93%, 50%);
+    color: white;
+    font-size: 16px; 
+    margin-bottom: 20px;
+
+}
+
+.button-guest:hover{
+    cursor: pointer;
+    background-color: hsl(345, 93%, 40%);
+}
