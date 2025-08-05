@@ -6,6 +6,7 @@
     object-fit: cover;
 }
 
+/*Next time dont do body use a container*/
 body{
     background: linear-gradient(20deg, hsl(0, 0%, 14%), rgb(126, 125, 125));
     background-size: cover;
